@@ -20,7 +20,10 @@ body{
     /* background-size: cover;
     background-position: center ; */
 }
-
+/* .photo{
+    margin-right: 0;
+    height: 60%;
+} */
 .container{
     padding: 10px 10%;
 }
@@ -148,12 +151,14 @@ nav ul li{
 .tab-contents.active-tab{
     display: block;
 }
+
 /* And Here Completed the ABOUT Section */
 
 
 /* And Here Start the SERVICES Section */
 #services{
     padding: 30px 0;
+    margin-top: 100px;
 }
 .services-list{
     display: grid;
@@ -194,8 +199,8 @@ nav ul li{
 /* And Here Completed the SERVICES Section */
 
 
-/* And Here Start the PORTFOLIO/WORK Section */
-.portfolio{
+/* And Here Start the PROJECTS/WORK Section */
+#projects{
     padding: 50px 0;
 }
 
@@ -281,8 +286,41 @@ nav ul li{
 
 /* And Here Completed the PORTFOLIO/WORK Section */
 
+/* And Here Start the Internship Section */
+#internship {
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .internship {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .internship h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .internship p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+/* And Here Completed the INTERNSHIP/WORK Section */
 
 /* And Here Start the CONTACT Section */
+#contact{
+    margin-top: 150px;
+}
 .contact-left{
     flex-basis: 35%;
     p{
