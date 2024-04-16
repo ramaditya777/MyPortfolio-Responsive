@@ -14,16 +14,22 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url("Image/myphoto.jpg");
+    position: relative;
+    overflow: hidden;
+    /* background-image: url("Image/myphoto1.jpg");
     background-repeat: no-repeat;
-    background-position:right;
-    /* background-size: cover;
-    background-position: center ; */
+    background-position:right; */  
 }
-/* .photo{
-    margin-right: 0;
-    height: 60%;
-} */
+.photo {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    height: 80%; /* Make the image fill the height of the header */
+    border-radius: 5%;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+}
+
 .container{
     padding: 10px 10%;
 }
